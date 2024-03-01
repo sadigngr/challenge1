@@ -25,7 +25,7 @@ def read(path,sample = ""):
 
 	if sample != "":
 		try:
-			return dnaDict[str(sample)]
+			return dnaDict[sample]
 
 		except KeyError:
 
